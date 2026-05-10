@@ -8,7 +8,7 @@ This lab walks though a full Linux audit in an effort of supporting the investig
 
 I opened the audit.rules file with gedit. It’s Florian Roth’s best practice auditd configuration file, based on gov.uk auditd, CentOS 7 hardening, and linux-audit.com tuning guides
 
-![Auditd rules file](Screenshots/Auditd-Rules-File.png)
+![Auditd rules file](Screenshots/Auditd-Rules.png)
 
 ## 2: Reviewing the Rules
 
