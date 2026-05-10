@@ -55,6 +55,15 @@ The detections from Zircolite were written to detected_events.json. Inside I fou
 
 ![Zircolite output](Screenshots/Reviewing-Zircolite-Output.png)
 
+## Takeawys:
+
+This lab demonstrated the importance of logging and auditing, and how admins or security analysts can monitor user activity, track authentication events, and identify unauthorized changes on Linux systems. 
+
+It also showed how meaningful the -k “keys” are in the auditd file. Without them, every rule can blur together. Producing a key-sorted summary report was extremely helpful in breaking down the events into specific attacker behaviour.  
+
+Zircolite also took the audit log to the next level. Adding the built-in SIGMA community detection rules and MITRE ATT3K mapping changed the lab from logs -> alerts -> actual findings. 
+
+
 
 
 
